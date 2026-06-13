@@ -5,6 +5,8 @@ streamlit
 fuzzywuzzy
 python-Levenshtein
 joblib
+scikit-learn
+numpy
 nltk
 python-multipart
 pypdf
