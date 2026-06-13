@@ -935,14 +935,6 @@ def about_tab() -> None:
     st.write("- Recruiter scorecards, candidate cards, concerns, and interview prompts")
     st.write("- CSV, Markdown, JSON, and PDF export support")
 
-    st.markdown("#### Suggested resume bullet")
-    st.code(
-        "Built TalentMatch AI, an AI-powered resume screening and job matching system using Python, "
-        "Streamlit, FastAPI, NLP skill extraction, TF-IDF + Logistic Regression, explainable shortlist "
-        "ranking, and exportable recruiter reports.",
-        language="text",
-    )
-
 
 def render_model_status(model_info: Dict[str, Any]) -> None:
     version = model_info.get("model_version", "unknown")
