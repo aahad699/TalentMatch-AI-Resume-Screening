@@ -1,0 +1,10 @@
+# Optional dependencies for notebook training and the full saved ML pipeline.
+# The app can run without these by using the demo fallback in project/inference.py.
+scikit-learn
+pandas
+numpy
+spacy
+plotly
+
+# Optional semantic embeddings. The app falls back gracefully if this is absent.
+sentence-transformers

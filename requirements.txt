@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+streamlit
+fuzzywuzzy
+python-Levenshtein
+joblib
+nltk
+python-multipart
+pypdf
+python-docx
